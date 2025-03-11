@@ -52,5 +52,5 @@ Movie, MovieItem
 ## APIS
 * Fetch data from the TMDB API.
 
-## Third party packages
-react-loader-spinner
+## Third-party packages
+Loader (react-loader-spinner) 
