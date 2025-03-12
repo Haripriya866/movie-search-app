@@ -2,7 +2,7 @@
 Movie Search App
 
 ## Objective
-A responsive single-page application that enables users to search for movies via the TMDB API, displaying detailed results with pagination for enhanced performance and user experience.
+This responsive single-page application enables users to search for movies via the TMDB API, displaying detailed results with pagination for improved performance and user experience.
 
 ## Demo
 
@@ -12,8 +12,7 @@ Link: https://movie-search-app-frontend-five.vercel.app
 HTML, CSS, JS, ReactJS, React Router, Github, and vercel for hosting the repository.
 
 ### Functionality
-#### Must Have
-* Build a React JS application with single page/component, including Movie, and MovieItem pages.
+* Build a React JS application with single page/component, including Movie page.
 * Implement features such as movie search by name, and pagination for enhanced performance and user experience.
 
 ## Setup Instructions
@@ -28,7 +27,7 @@ HTML, CSS, JS, ReactJS, React Router, Github, and vercel for hosting the reposit
         cd ../frontend
 
         Install the necessary dependencies:
-        npm install react-router-dom
+        npm install react-router-dom@5 react-loader-spinner@4.0.0
 
     Folder Structure and Logic: Frontend:
 
@@ -47,7 +46,10 @@ HTML, CSS, JS, ReactJS, React Router, Github, and vercel for hosting the reposit
 
 ## Resources
 ## Design files
-Movie, MovieItem
+Movie
 
 ## APIS
 * Fetch data from the TMDB API.
+
+## Third party packages
+react-loader-spinner, react-router-dom
